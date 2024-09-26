@@ -1,0 +1,12 @@
+@media screen and (max-width:250px) {
+    html {
+        font-size: 20.5%;
+    }
+    #h1 {
+        display: block;
+        min-width: 314vw;
+    }
+    #para {
+        min-width: 305vw;
+    }
+}

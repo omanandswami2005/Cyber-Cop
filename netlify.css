@@ -1,0 +1,218 @@
+                   body {
+                       margin: 0%;
+                       padding: 0%;
+                   }
+                   
+                   html {
+                       font-size: 62.5%;
+                   }
+                   
+                   #h1 {
+                       box-sizing: border-box;
+                       color: black;
+                       font-weight: bolder;
+                       border-style: groove;
+                       padding: 4rem;
+                       padding-top: 1rem;
+                       border-color: rgba(37, 114, 46, 0.467);
+                       border-width: 3rem;
+                       text-align: center;
+                       /* margin-top: 5rem; */
+                       margin-right: 5rem;
+                       margin-left: 5rem;
+                       background: linear-gradient(to bottom left, rgba(243, 255, 21, 0.755), rgb(248, 34, 34), rgba(10, 243, 165, 0.494), rgb(239, 243, 10));
+                       text-shadow: .5rem .5rem rgba(247, 231, 5, 0.864);
+                       max-width: 99vmax;
+                   }
+                   
+                   .nam::after {
+                       content: "Omanand Swami";
+                       font-size: 3rem;
+                   }
+                   
+                   .nam:hover {
+                       text-decoration: line-through;
+                       color: transparent;
+                   }
+                   
+                   #h1:hover {
+                       color: rgba(0, 0, 0, 0.576);
+                       border-color: rgba(16, 171, 206, 0.542);
+                       transition-delay: 1s;
+                       border-style: ridge;
+                       font-style: italic;
+                       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                       font-family: 'Libre Baskerville', serif;
+                       background: linear-gradient(to bottom left, rgba(255, 0, 0, 0.755), rgba(255, 255, 0, 0.693), rgba(0, 247, 255, 0.433));
+                       text-shadow: .5rem .3rem rgba(66, 17, 243, 0.296);
+                       background-clip: border-box;
+                       text-decoration: underline;
+                   }
+                   
+                   #para {
+                       color: rgb(0, 0, 0);
+                       font-weight: bolder;
+                       border-style: ridge;
+                       border-color: rgba(32, 196, 225, 0.59);
+                       border-radius: 25rem;
+                       border-bottom-left-radius: 25rem;
+                       border-bottom-right-radius: 25rem;
+                       border-width: 1rem;
+                       margin-left: 5rem;
+                       margin-right: 5rem;
+                       margin-top: 5rem;
+                       padding: 4rem;
+                       background-color: rgba(179, 123, 123, 0.255);
+                   }
+                   
+                   #Cy {
+                       font-size: 4rem;
+                   }
+                   
+                   .wel {
+                       text-align: center;
+                       font-size: 3rem;
+                   }
+                   
+                   #wel {
+                       border-style: double;
+                       border-width: 1rem;
+                       border-radius: 4rem;
+                       margin-left: 20rem;
+                       margin-right: 20rem;
+                   }
+                   
+                   #wel:hover {
+                       border-style: groove;
+                       border-color: rgba(54, 237, 8, 0.905);
+                       font-size: 4rem;
+                       transition-duration: 100ms;
+                   }
+                   
+                   .wh {
+                       font-size: 2.3rem;
+                       padding-left: 3rem;
+                       text-decoration: underline;
+                       margin-top: 5rem;
+                       font-family: 'Crete Round', serif;
+                   }
+                   
+                   .whpara {
+                       padding-left: 10rem;
+                       border-radius: 3rem;
+                       margin-left: 15rem;
+                       margin-top: 2rem;
+                       font-size: 2rem;
+                       font-family: 'Zilla Slab', serif;
+                   }
+                   
+                   .img {
+                       display: block;
+                       margin-left: auto;
+                       margin-right: auto;
+                       width: 55vmax;
+                   }
+                   
+                   .high {
+                       font-size: 2.7rem;
+                   }
+                   
+                   .first {
+                       margin-top: 2.5rem;
+                   }
+                   
+                   .th {
+                       font-size: 2rem;
+                   }
+                   
+                   .foot {
+                       display: flex;
+                       flex-direction: column;
+                       border-style: hidden;
+                       border-width: .7rem;
+                       border-radius: 25rem;
+                       padding-top: 3rem;
+                       margin-top: 3rem;
+                       margin-bottom: 0rem;
+                       background-color: rgb(184, 230, 158);
+                       color: rgb(0, 0, 0);
+                       /* max-height: 30vh; */
+                   }
+                   
+                   .foot:hover {
+                       background-color: rgb(255, 255, 255);
+                       border-style: outset;
+                       border-color: turquoise;
+                   }
+                   
+                   .co {
+                       text-align: center;
+                       font-size: 3.5rem;
+                       font-weight: bold;
+                       font-family: 'Cinzel', serif;
+                   }
+                   
+                   .co:hover {
+                       text-decoration: underline;
+                   }
+                   
+                   .thank {
+                       text-align: center;
+                       font-size: 5rem;
+                       font-weight: bolder;
+                   }
+                   
+                   .pl {
+                       text-align: center;
+                       font-size: 3.5rem;
+                   }
+                   
+                   .contact {
+                       text-align: center;
+                       font-size: 3.5rem;
+                   }
+                   
+                   .name {
+                       font-size: 8.7rem;
+                   }
+                   
+                   .qwe {
+                       display: flex;
+                       flex-wrap: wrap;
+                       justify-content: center;
+                       align-items: center;
+                       margin-top: 3rem;
+                       padding-bottom: 3rem;
+                   }
+                   
+                   #face,
+                   #twit,
+                   #inst {
+                       border: .5rem double black;
+                       border-radius: 3rem;
+                       margin: 3rem;
+                       padding: 1rem;
+                       font-size: 4rem;
+                       cursor: pointer;
+                       text-decoration: none;
+                   }
+                   
+                   #face:hover,
+                   #twit:hover,
+                   #inst:hover {
+                       font-size: 5rem;
+                       font-weight: bold;
+                       color: black;
+                       background: linear-gradient(to bottom left, rgba(75, 141, 53, 0.686), rgba(248, 34, 34, 0.713), rgba(10, 243, 165, 0.494), rgb(132, 76, 172));
+                       border-color: rgba(77, 146, 94, 0);
+                   }
+                   
+                   .fa:hover {
+                       transform: scale(1.3);
+                       transition-duration: .5s;
+                   }
+                   
+                   .hr {
+                       margin-right: 5rem;
+                       margin-left: 5rem;
+                   }
